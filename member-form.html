@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- it will load fast so i have pasted in file -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href = "magicalmantras.css">
+    <link rel = "stylesheet" href = "member-form.css">
+    <title>Membership Form</title>
+</head>
+<body>
+      <!--nav bar-->
+   <div class = "navbar navbar-expand-lg fixed-top">
+    <div class = "logo">
+        <img src = "C:\Users\Dolly\OneDrive\Documents\GitHub\TRACKER VS CODE\image/logo.jpg" alt = "logo" title = "logo">
+    </div>
+    <div class = "name">
+        <a href = "index.html" class = "navbar-brand">
+        <img src = "C:\Users\Dolly\OneDrive\Documents\GitHub\TRACKER VS CODE/image/logo.jpg" alt = "MYSTIC PULSE" title = "MAGICAL MANTRAS" width = "100" height = "100" >
+        </a>
+    </div>
+       <div class = "navbar">
+        
+           
+           <div class = "collapse navbar-collapse" id = "navbarNav">
+               <ul class="navbar-nav ml-lg-auto">
+                    <li class = "nav-item">
+                      <a href="index.html" class="nav-link smoothScroll">HOME</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="member-form.html" class="nav-link smoothScroll">MEMBERSHIP FORM</a>
+                  </li>
+                   <li class="nav-item">
+                      <a href="options/2about.html" class="nav-link smoothScroll">ABOUT</a>
+                   </li>
+
+                   <li class="nav-item">
+                      <a href="options/3explore.html" class="nav-link smoothScroll">EXPLORE</a>
+                   </li>
+
+                   <li class="nav-item">
+                      <a href="options/4schedule.html" class="nav-link smoothScroll">SCHEDULE</a>
+                   </li>
+
+                   <li class="nav-item">
+                      <a href="options/5calculate.html" class="nav-link smoothScroll">CALCULATE</a>
+                   </li>
+
+                   <li class="nav-item">
+                      <a href="options/6team.html" class="nav-link smoothScroll">TEAM</a>
+                   </li>
+
+                   <li class="nav-item">
+                      <a href="options/7contact.html" class="nav-link smoothScroll">CONTACT</a>
+                   </li>
+
+                  <li class="nav-item">
+                    <a href="options/8helpdesk.html" class="nav-link smoothScroll">HELP DESK</a>
+                  <li class="nav-item">
+                    <a href="options/9login.html" class="nav-link smoothScroll">LOGIN</a>
+                  </li>
+
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <!--nav bar ends-->
+    <div class = "logo">
+        <img src = "logo.jpg" alt = "logo" title = "MAGICAL MANTRAS" align = "left">
+    </div>
+    
+    <div class = "name">
+    
+        <a href = "index.html" class = "navbar-brand">
+          <img = src = "Name.png" alt = "MAGICAL MANTRAS" title = "MAGICAL MANTRAS" width = "100" height = "100" >
+        </a>
+    </div>
+    <form>  
+        <div class="container">  
+        <center>  <h1> Membership Form</h1> </center>  
+        <hr>  
+        <label> Firstname </label>   
+      <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+      <label> Middlename: </label>   
+      <input type="text" name="middlename" placeholder="Middlename" size="15" />   
+      <label> Lastname: </label>    
+      <input type="text" name="lastname" placeholder="Lastname" size="15"required />    
+      <div>  
+      <label>   
+      Gender :  
+      </label><br>  
+      <input type="radio" value="Male" name="gender" checked > Male   
+      <input type="radio" value="Female" name="gender"> Female   
+      <input type="radio" value="Other" name="gender"> Other  
+        
+      </div>  
+      <label>   
+      Phone :  
+      </label>  
+      <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+      <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+      Current Address :  
+      <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+      </textarea>  
+       <label for="email"><b>Email</b></label>  
+       <input type="text" placeholder="Enter Email" name="email" required>  
+        
+          <label for="psw"><b>Password</b></label>  
+          <input type="password" placeholder="Enter Password" name="psw" required>  
+        
+          <label for="psw-repeat"><b>Re-type Password</b></label>  
+          <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+          <button type="submit" class="registerbtn">Register</button>    
+      </form>  
+      <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
