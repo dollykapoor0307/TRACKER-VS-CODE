@@ -10,23 +10,24 @@
     <!-- Navigation Bar -->
     <nav>
         <div class="logo">
-            <img src="image-folder/logo.jpg" alt="Logo">
+            <a href="index.html"><img src="../image/logo.jpg" alt="Logo"></a>
         </div>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#calculate">Calculate</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#helpdesk">Help Desk</a></li>
-            <li><a href="#login">Login</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="options/about.html">About</a></li>
+            <li><a href="options/explore.html">Explore</a></li>
+            <li><a href="options/schedule.html">Schedule</a></li>
+            <li><a href="options/calculate.html">Calculate</a></li>
+            <li><a href="options/team.html">Team</a></li>
+            <li><a href="options/helpdesk.html">Help Desk</a></li>
+            <li><a href="options/login.html">Login</a></li>
         </ul>
     </nav>
 
     <!-- Video Section -->
     <section class="video-section">
         <video autoplay muted loop>
-            <source src="video-folder/trikon-sea-vid.mp4" type="video/mp4">
+            <source src="video/trikon-sea-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>
@@ -36,147 +37,24 @@
         <h1>Types of Fitness</h1>
         <div class="fitness-container">
             <div class="fitness-card">
-                <img src="image-folder/physical.jpg" alt="Physical Fitness">
+                <img src="image/physical.jpg" alt="Physical Fitness">
                 <h2>Physical Fitness</h2>
                 <p>Stay active and keep your body in shape.</p>
                 <a href="types-of-fitness/physical.html" class="learn-more">Learn More</a>
             </div>
             <div class="fitness-card">
-                <img src="image-folder/mental.jpg" alt="Mental Fitness">
+                <img src="image/mental.jpg" alt="Mental Fitness">
                 <h2>Mental Fitness</h2>
                 <p>Improve focus and reduce stress for a healthy mind.</p>
                 <a href="types-of-fitness/mental.html" class="learn-more">Learn More</a>
             </div>
             <div class="fitness-card">
-                <img src="image-folder/spiritual.jpg" alt="Spiritual Fitness">
+                <img src="image/spiritual.jpg" alt="Spiritual Fitness">
                 <h2>Spiritual Fitness</h2>
                 <p>Connect with your inner self for peace and clarity.</p>
                 <a href="types-of-fitness/spiritual.html" class="learn-more">Learn More</a>
             </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h1>About</h1>
-        <div class="about-content">
-            <p>Tracking your fitness is essential for a healthy lifestyle. Stay motivated with regular activities and monitor your progress.</p>
-            <div class="info-section">
-                <div class="info-block">
-                    <img src="image-folder/water-intake.jpg" alt="Water Intake">
-                    <p>Ensure you drink enough water daily to stay hydrated.</p>
-                </div>
-                <div class="info-block">
-                    <img src="image-folder/bmi.jpg" alt="BMI">
-                    <p>Keep track of your Body Mass Index for a balanced weight.</p>
-                </div>
-                <div class="info-block">
-                    <img src="image-folder/step-count.jpg" alt="Step Count">
-                    <p>Maintain an active lifestyle by walking a minimum of 10,000 steps daily.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Explore Section -->
-    <section id="explore">
-        <h1>Explore</h1>
-        <div class="explore-container">
-            <div class="explore-card">
-                <img src="image-folder/diet.jpg" alt="Diet">
-                <p>Diet</p>
-            </div>
-            <div class="explore-card">
-                <img src="image-folder/workout.jpg" alt="Workout">
-                <p>Workout</p>
-            </div>
-            <div class="explore-card">
-                <img src="image-folder/brain-health.jpg" alt="Improve Brain Health">
-                <p>Improve Brain Health</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Schedule Section -->
-    <section id="schedule">
-        <h1>Schedule</h1>
-        <p>Create or edit your daily fitness schedule below:</p>
-        <form>
-            <label for="morning">Morning:</label>
-            <input type="text" id="morning" name="morning" value="Jogging for 30 mins"><br>
-            <label for="afternoon">Afternoon:</label>
-            <input type="text" id="afternoon" name="afternoon" value="Yoga for 15 mins"><br>
-            <label for="evening">Evening:</label>
-            <input type="text" id="evening" name="evening" value="Workout at the gym"><br>
-            <input type="submit" value="Save">
-        </form>
-    </section>
-
-    <!-- Calculate Section -->
-    <section id="calculate">
-        <h1>Calculate</h1>
-        <div class="calculate-container">
-            <div>
-                <h2>BMI Calculator</h2>
-                <label for="weight">Weight (kg):</label>
-                <input type="number" id="weight"><br>
-                <label for="height">Height (m):</label>
-                <input type="number" id="height"><br>
-                <button onclick="calculateBMI()">Calculate BMI</button>
-                <p id="bmi-result"></p>
-            </div>
-            <div>
-                <h2>Calorie Counter</h2>
-                <label for="food-item">Food Item:</label>
-                <input type="text" id="food-item">
-                <button onclick="searchCalories()">Get Calories</button>
-                <p id="calorie-result"></p>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    
-
-
-
-    <!-- Team Section -->
-    <section id="team">
-        <h1>Our Team</h1>
-        <div class="team-container">
-            <div>
-                <img src="image-folder/member1.jpg" alt="Team Member 1">
-                <p>John Doe</p>
-            </div>
-            <div>
-                <img src="image-folder/member2.jpg" alt="Team Member 2">
-                <p>Jane Smith</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Help Desk Section -->
-    <section id="helpdesk">
-        <h1>Help Desk</h1>
-        <form>
-            <label for="query">Submit Your Query:</label>
-            <textarea id="query" name="query" rows="4"></textarea><br>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <!-- Login Section -->
-    <section id="login">
-        <h1>Login</h1>
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"><br>
-            <button type="submit">Login</button>
-        </form>
     </section>
 
     <script src="script.js"></script>
